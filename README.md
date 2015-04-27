@@ -1,2 +1,2 @@
 # Web-Development
-Demos mainly for YoopiHome.
+Demos mainly for Ezkie company.
