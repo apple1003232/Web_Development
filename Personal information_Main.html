@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Application_Personal information_Main</title>
+    <title>Personal informations</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,14 +34,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Ezkie</a>
+          <a class="navbar-brand" href="Home.html">Ezkie</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="home.html">Home</a></li>
+            <li><a href="Home.html">Home</a></li>
             <!-- <li><a href="#">About</a></li> -->
-            <li class="active"><a href="#">Application</a></li>
+            <li class="active"><a href="Personal information.html">Application</a></li>
             <!-- <li><a href="#">Career</a></li> -->
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact<span class="caret"></span></a>
@@ -74,23 +74,15 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-<!-- Following matching questions are frome UCLA Apartment. -->
     <div class="container">
       <div class="row">
         <div class="col-sm-9">
            <div class="page-header">
-            <h3 align="center">Personal information</h3>     
+            <h3 align="center">Personal informations</h3>     
             <p class="lead" align="justify">
-              Please review this information and make any corrections in the text boxes. For values that can’t be edited in the text box, please alert us through <a href="mailto:sayhello@ezkie.com?subject=Hello%20again">Email</a>.</p>
+              Please review this information and make any corrections in the text boxes. For values that can’t be edited in the text box, please alert us through <a href="mailto:sayhello@ezkie.com?subject=Hello%20again">Email</a>. Items with an asterisk (*) are required before you can proceed.</p>
           </div>
 
-            <ul class="nav nav-tabs pull-right">
-              <li role="presentation" class="active"><a href="#">Main</a></li>
-              <li role="presentation"><a href="#">Contact</a></li>
-              <li role="presentation"><a href="#">Photo Upload</a></li>
-              <li role="presentation"><a href="#">Confirm Photo</a></li>
-            </ul>
-          <br><br><br>
           <div class="container">
             <div class="row">
               <div class="col-sm-5">
@@ -107,11 +99,21 @@
                     </select>
                   </div>
                 </form>
-                
+ 
+                <label>First Name:*</label>
+                <input type="text" type="text" class="form-control"><br>                
+                <label>Preferred Name:</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Middle Name:</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Date of Birth (MM/DD/YYYY):*</label> <br>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Last Name:*</label>
+                <input type="text" type="text" class="form-control"><br>
 
                 <form role="form">
                   <div class="form-group">
-                    <label for="sel2">Birth Sex:</label>
+                    <label for="sel2">Birth Sex:*</label>
                     <select class="form-control" id="sel2">
                       <option>- Please Select -</option>
                       <option>Male</option>
@@ -132,7 +134,7 @@
                       <option>Gender Non-confirming</option>
                     </select>
                   </div>
-                </form>              
+                </form> 
 
                 <form role="form">
                   <div class="form-group">
@@ -146,16 +148,38 @@
                     </select>
                   </div>
                 </form> 
+
+                <label>Email:*</label>
+                <input type="text" type="text" class="form-control"><br>              
+                <label>Confirm Email:*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Cell Phone (xx-xxx-xxx-xxxx):*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Address 1:*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Address 2:</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>City:*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>State/Province:*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Postal Code:*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Country:*</label>
+                <input type="text" type="text" class="form-control"><br>
+                <label>Home Phone (xx-xxx-xxx-xxxx):</label>
+                <input type="text" type="text" class="form-control"><br>
               </div>
             </div>
           </div>
 
           <nav>
             <ul class="pager" align="center">
-              <li><a href="#">Save & Continue</a></li>
+              <li><a href="House Choosing Options.html">Save & Continue</a></li>
             </ul>
           </nav>
         </div>
+
         <div class="col-sm-3">
           <br><br><br><br>
          <ul class="list-group">
@@ -165,7 +189,7 @@
           <li class="list-group-item"><a href="#">Parking Preference</a></li>
           <li class="list-group-item"><a href="#">Roommate Search Options</a></li>
           <li class="list-group-item"><a href="#">Roommate Requests</a></li>
-          <li class="list-group-item"><a href="#">Application fee</a></li>
+          <li class="list-group-item"><a href="#">Application Fee</a></li>
           <li class="list-group-item"><a href="Submit Application.html">Submit Application</a></li>      
         </ul>
         </div>
@@ -178,7 +202,7 @@
         <div class="col-sm-1"></div>
         <div class="col-sm-5">
           <footer>
-              <p class="pull-left">&copy; YoopiHome &middot; <a href="https://ezkie.com/terms-and-conditions">Terms & Conditions</a></p>
+              <p class="pull-left">&copy; Ezkie &middot; <a href="https://ezkie.com/terms-and-conditions">Terms & Conditions</a></p>
           </footer>
         </div>
         <div class="col-sm-5">
@@ -188,7 +212,7 @@
         </div>
         <div class="col-sm-1"></div>
       </div>
-    </div>
+    </div>  
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
